@@ -8,7 +8,7 @@ public class insertionSort {
 
 		int[] test = { 3, 6, 9, 2, 7, 5, 4, 10, 8, 1 };
 		
-		/*// 나의 답
+		// 나의 답
 		for(int i = 0 ; i < test.length ; i++){
 			int flag = -1;
 			int temp = 0;
@@ -27,7 +27,7 @@ public class insertionSort {
 				System.out.println(Arrays.toString(test));
 			}
 			System.out.println("=====================================");
-		}*/
+		}
 		
 		// 정답
 		for(int i = 1 ; i < test.length ; i++){
