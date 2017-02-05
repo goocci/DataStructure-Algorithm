@@ -7,7 +7,7 @@ import java.util.Arrays;
 - 분할된 두 개의 리스트에 대해 재귀함수를 통해 이 과정을 반복한다.
 - 시간복잡도 : 최악 O(n^2), 평균 O(nlogn)
 */
-public class quickSort {
+public class QuickSort {
 	
 	public void sort(int[] data, int l, int r){
         int left = l;
@@ -38,7 +38,7 @@ public class quickSort {
         
     	int[] test = { 3, 10, 6, 9, 2, 7, 5, 4, 8, 1 };;
         
-        quickSort quick = new quickSort();
+        QuickSort quick = new QuickSort();
         quick.sort(test, 0, test.length - 1);
 
         System.out.println(Arrays.toString(test));

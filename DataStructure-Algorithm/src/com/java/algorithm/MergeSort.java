@@ -2,7 +2,7 @@ package com.java.algorithm;
 
 import java.util.Arrays;
 
-public class mergeSort {
+public class MergeSort {
 	
 	public static void main(String[] args){
 		
