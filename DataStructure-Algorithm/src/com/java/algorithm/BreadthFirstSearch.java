@@ -40,13 +40,14 @@ public class BreadthFirstSearch {
 		
 		while(!queue.isEmpty()){ //큐에 정점이 모두 Dequeue되면 끝
 			
-			v = (int)queue.poll(); //방문 후 Dequeue
+			v = (int)queue.poll(); //방문할 곳 Dequeue
 			
+			//v(현재 정점)와 인접한 정점들 큐에 넣기!!!
 			for(int i = 1 ; i <= vCount ; i++){
 				if(ad[v-1][i-1] == 1 && !isVisits[i-1]){ //현재 방문한 정점에서 가까운 정점 찾기(이미 방문한 곳은 ㄴㄴ)
 					System.out.println(v + "->" + i);
 					isVisits[i-1] = true;
-					queue.add(i); //방문할 곳 Enqueue
+					queue.add(i); //인접한 정점 Enqueue
 				}
 			}
 		}
