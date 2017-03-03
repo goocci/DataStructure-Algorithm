@@ -9,3 +9,6 @@ https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-A
 
 ### DataStructure
 https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-Algorithm/src/com/java/datastructure
+
+### ETC
+https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-Algorithm/src/com/java/etc
