@@ -12,3 +12,6 @@ https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-A
 
 ### ETC
 https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-Algorithm/src/com/java/etc
+
+### Solving Problems (Beakjun)
+https://github.com/MinGu-Kim/DataStructure-Algorithm/tree/master/DataStructure-Algorithm/src/com/java/problem
